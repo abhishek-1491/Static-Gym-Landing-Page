@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #D4BEE4;
+    color: #3B1E54;
+    /* position: relative; */
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.main-nav{
+    width: 100%;
+    height: 40px;
+    background-color: #9B7EBD;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    background-color: aqua;
+    align-items: center;
+    /* position: fixed; */
+}
+.row:after{
+    display: table;
+    content: "";
+    clear: both;
+    float: left;
+}
+.col{
+    float: left;
+}
+.nav-item{
+    float: right;
+    margin-right: 30px;
+}
+select{
+    margin-left: 20px;
+    margin-top: 6px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: #D4BEE4;
+}
+.logo{
+    background-color: #3B1E54;
+    padding: 10px;
+}
+.col-1{
+    width: 60%;
+    height: 80vh;
+    text-align: justify;
+    /* padding-top: 200px; */
+    /* padding: 10px; */
+
+    /* background-color: red; */
+}
+.col-1 .content{
+    margin-top: 200px;
+    margin-left: 60px;
+}
+.col-2 .content{
+    padding-top: 50px;
+}
+.col-2{
+    width: 40%;
+    height: 80vh;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.product-1{
+    width: 24%;
+    height: 80vh;
+    /* background-color: red; */
+}
+.product-2{
+    width: 24%;
+    height: 80vh;
+    /* background-color: blue; */
+}
+.product-3{
+    width: 24%;
+    height: 80vh;
+    /* background-color: white; */
+}
+.product-4{
+    width: 24%;
+    height: 80vh;
+    /* background-color: green; */
+}
+.product-1 img{
+    width: 80%;
+    height: 50vh;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.product-2 img{
+    width: 80%;
+    height: 50vh;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.product-3 img{
+    width: 80%;
+    height: 50vh;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.product-4 img{
+    width: 80%;
+    height: 50vh;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.products h1{
+    font-size: 60px;
+}
+
+.price p{
+    text-align: center;
+    font-size: larger;
+    border: 1px solid ;
+    width: 80%;
+    height: 30px;
+    padding-top: 10px;
+    margin-left: 35px;
+    background-color: aqua;
+}
+.price p:hover{
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+.services h1{
+    font-size: 60px;
+}
+.service-part-1{
+    width: 40%;
+    height: 80vh;
+    background-color: red;
+}
+.service-part-2{
+    width: 60%;
+    height: 80vh;
+    background-color: blue;
+}
+.service-part-1 img{
+    padding-top: 90px;
+}
+
+.footer-col-1{
+    width: 33%;
+    height: 40vh;
+    /* background-color: yellow; */
+}
+.footer-col-2{
+    width: 33%;
+    height: 40vh;
+    /* background-color: gray; */
+}
+.footer-col-3{
+    width: 33%;
+    height: 40vh;
+    /* background-color: yellow; */
+}
+.footer-col-1 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer-col-2 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer-col-3 h2{
+    text-align: center;
+    font-size: 30px;
+}
+.footer-col-1 ul li{
+    list-style: none;
+    margin-left: 30px;
+    line-height: 35px;
+    
+}
+.footer-col-2 ul li, a{
+    list-style: none;
+    padding-left: 30px;
+    line-height: 20px;
+    text-decoration: none;
+    color: black;
+
+}
+.footer-col-2 ul a li:hover{
+    width: 80%;
+    background-color: lightgrey;
+}
+
+.footer-col-3 form{
+    /* border: 2px solid blue; */
+    width: 80%;
+    height: 20vh;
+    padding-left: 60px;
+    padding-top: 40px;
+    line-height: 35px;
+}
+.footer-col-3 form .submit-btn{
+    width: 45%;
+    height: 30px;
+}
+.footer-col-3 form .submit-btn:hover{
+    background-color: #9B7EBD;
+    cursor: pointer;
+}
+.footer-col-3 form input{
+    width: 43%;
+}
